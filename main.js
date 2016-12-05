@@ -35,7 +35,7 @@ function draw(){
 function mouseReleased() {
   removeElements();
   img = createImg(random(gifs));
-  img.size(600, 600); 
+  img.size(600, 600);
   
   changeState = !changeState ;
 }
