@@ -46,4 +46,3 @@ function gotData(giphy) {
     gifs = append(gifs, giphy.data[i].images.original.url);
   }
 }
-
